@@ -14,7 +14,7 @@ export default function SignUp({ socket }) {
 
     return (
         <form className="home__container" onSubmit={handleSubmit}>
-            <h1 className="home__header">Sign up to Open Chat</h1>
+            <h1 className="home__header">Sign up to Small Chat App</h1>
             <label htmlFor="username">Username</label>
             <input
                 type="text"
